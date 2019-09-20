@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ErrorPage /> rendering renders correctly 1`] = `
+<div>
+  An error has occurred. I don't know what to do!
+</div>
+`;

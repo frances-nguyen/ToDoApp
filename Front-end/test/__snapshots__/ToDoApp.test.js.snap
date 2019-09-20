@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ToDoApp /> rendering renders correctly 1`] = `
+<div>
+  <header>
+    <nav
+      className="navbar navbar-expand-md navbar-dark bg-dark"
+    >
+      <div>
+        <a
+          className="navbar-brand"
+          href="/"
+          style={
+            Object {
+              "color": "#e3f2fd",
+            }
+          }
+        >
+          To Do
+        </a>
+      </div>
+      <button
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        className="navbar-toggler"
+        data-target="#navbarNav"
+        data-toggle="collapse"
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        className="collapse navbar-collapse"
+        id="navbarNav"
+      >
+        <ul
+          className="navbar-nav"
+        >
+          <li>
+            <a
+              className="nav-link"
+              href="/"
+              onClick={[Function]}
+            >
+              Home
+            </a>
+          </li>
+          <a
+            className="nav-link"
+            href="/todolist"
+            onClick={[Function]}
+          >
+            To Do
+          </a>
+        </ul>
+        <ul
+          className="navbar-nav navbar-collapse justify-content-end"
+        >
+          <a
+            className="nav-link"
+            href="/login"
+            onClick={[Function]}
+          >
+            Log In
+          </a>
+          <a
+            className="nav-link"
+            href="/logout"
+            onClick={[Function]}
+          >
+            Log Out
+          </a>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div>
+    Username:
+     
+    <input
+      name="username"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    Password:
+     
+    <input
+      name="password"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <button
+      onClick={[Function]}
+    >
+      Login
+    </button>
+  </div>
+  <div>
+    <hr />
+    Footer
+  </div>
+</div>
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WelcomePage /> rendering renders <WelcomePage /> 1`] = `
+<div>
+  Welcome 
+  username
+  . You can manage your to do list
+   
+  <a
+    href="/todolist"
+    onClick={[Function]}
+  >
+    here
+  </a>
+  .
+</div>
+`;
